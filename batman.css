@@ -1,0 +1,188 @@
+
+nav {
+    background-color: #000000; /* Preto */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Remove a marcação da lista e centraliza os itens */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estiliza cada item da lista */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Estiliza os links dentro do menu */
+nav ul li a {
+    color: #FFCC00; /* Amarelo */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre o link */
+nav ul li a:hover {
+    color: #FFCC00; /* Amarelo */
+    background-color: #333333; /* Cinza escuro */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para o botão de Login no menu */
+nav ul li a.btn-login {
+    background-color: #FFCC00; /* Amarelo */
+    color: black; /* Preto */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse sobre o botão de Login */
+nav ul li a.btn-login:hover {
+    background-color:  #cba200; /* Laranja */
+}
+
+/* Conteudo site - slider */
+/* Estilização do container do slider */
+.slider {
+    width: 900%; 
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 200%;
+    animation: slideAnimation 13s infinite;
+}
+
+.slide {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+@keyframes slideAnimation {
+    0% {transform: translateX(0);}
+    20% {transform: translateX(-50%);}
+    40% {transform: translateX(-100%);}
+    60% {transform: translateX(0%);}
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+/* Estilo para o contêiner de personagens */
+.personagens-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para o contêiner de personagens */
+.personagens-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para o contêiner de personagens */
+.personagens-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para o contêiner de personagens */
+.personagens-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin: 10px 0; /* Margem superior e inferior reduzida */
+}
+
+/* Estilo para o contêiner de personagens */
+.personagens-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin: 5px 0; /* Margem superior e inferior reduzida */
+}
+
+/* Estilo para cada personagem */
+.personagem {
+    flex: 1 1 50px; /* Flex-grow, flex-shrink e flex-basis ajustados para 50px */
+    margin: 0; /* Removendo a margem entre os itens */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para as imagens */
+.personagem img {
+    width: 50%; /* Reduz a largura da imagem para 50% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra da imagem */
+}
+
+/* Estilo para o nome do personagem */
+.personagem p {
+    margin-top: 3px; /* Margem acima do texto reduzida */
+    font-size: 10px; /* Tamanho da fonte reduzido */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+/* Estilo do footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000; /* Preto */
+    color: #FFCC00; /* Amarelo */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    color: #FFCC00; /* Amarelo para os títulos das seções */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #333333; /* Cinza escuro */
+    color: #FFCC00; /* Amarelo */
+}
+
+/* Opcional: Efeito ao passar o mouse sobre os links no footer */
+.footer-section a {
+    color: #FFCC00; /* Amarelo */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Destaca o link ao passar o mouse */
+}
+
+ 
